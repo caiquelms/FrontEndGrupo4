@@ -1,0 +1,101 @@
+:root {
+  --cor1: #191a24;
+  --cor2: #35374d;
+  --cor3: #23c676;
+  --cor4: #e2e2e2;
+}
+
+* {
+  font-family: "Questrial", sans-serif;
+}
+
+#banner {
+  height: 40vh;
+  background-image: url(../img/fifa-carrossel.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+  height: 500px;
+  display: block;
+  border: solid 5px var(--cor2);
+}
+
+#capajogo {
+  width: min-content;
+  padding-right: 3vw;
+}
+
+#botao {
+  background-color: var(--cor3);
+  color: var(--cor4);
+  border-radius: 40px;
+  padding: 20px 0px;
+  width: 100%;
+  border: none;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#container {
+  display: flex;
+  position: relative;
+  top: -70px;
+  padding: 0 10vw;
+}
+
+h2 {
+  font-family: "Dela Gothic One", monospace;
+  color: var(--cor3);
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+#texts {
+  color: var(--cor4);
+}
+
+p {
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+body {
+  background-color: var(--cor1);
+}
+
+nav {
+  background-color: var(--cor2);
+}
+
+#navbarSupportedContent ul li a {
+  color: var(--cor4);
+}
+
+#navbarSupportedContent ul li a:hover {
+  color: var(--cor3);
+}
+
+.dropdown-menu {
+  background-color: var(--cor2);
+}
+
+footer {
+  background-color: var(--cor2);
+  color: var(--cor4);
+  height: 3vh;
+}
+
+footer p {
+  text-align: center;
+  font-size: 20px;
+}
+
+@media (max-width: 778px) {
+  #container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
