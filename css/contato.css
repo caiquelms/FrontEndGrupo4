@@ -1,0 +1,95 @@
+:root {
+  --cor1: #191a24;
+  --cor2: #35374d;
+  --cor3: #23c676;
+  --cor4: #e2e2e2;
+}
+
+* {
+  font-family: "Questrial", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--cor1);
+}
+
+nav {
+  background-color: var(--cor2);
+}
+
+#navbarSupportedContent ul li a {
+  color: var(--cor4);
+}
+
+#navbarSupportedContent ul li a:hover {
+  color: var(--cor3);
+}
+
+.dropdown-menu {
+  background-color: var(--cor2);
+}
+
+h2 {
+  font-family: "Dela Gothic One", monospace;
+  color: var(--cor3);
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+#destaques .container .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+#faleconosco form {
+  font-size: 20px;
+  background-color: var(--cor2);
+  color: var(--cor4);
+  max-width: 400px;
+  height: fit-content;
+  margin: auto;
+  padding: 20px;
+}
+
+#faleconosco {
+  padding: 0 10vw;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#mensagem {
+  height: 100px;
+}
+
+input[type="submit"] {
+  width: 30%;
+  border-radius: 20px;
+  background-color: var(--cor3);
+  border: none;
+  color: var(--cor4);
+}
+
+footer {
+  background-color: var(--cor2);
+  color: var(--cor4);
+  height: 3vh;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+footer p {
+  margin-left: 20px;
+  text-align: left;
+}
