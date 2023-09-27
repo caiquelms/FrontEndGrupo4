@@ -1,138 +1,211 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jogo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Início</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Categorias
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Consoles</a></li>
-                  <li><a class="dropdown-item" href="#">Jogos</a></li>
-                  <li><a class="dropdown-item" href="#">Periféricos</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SerraTech Store</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categorias
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Consoles</a></li>
+                <li><a class="dropdown-item" href="#">Jogos</a></li>
+                <li><a class="dropdown-item" href="#">Periféricos</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/god-of-war-2-carrossel.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="img/fifa-carrossel.jpeg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="img/nfs-carrossel.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section>
+      <h2>Categorias</h2>
+      <div id="categorias">
+        <div class="categoria">
+          <a href="#">
+            <div class="img-categoria"></div>
+            <h3>Esporte</h3>
+          </a>
+        </div>
+        <div class="categoria">
+          <a href="">
+            <div class="img-categoria"></div>
+            <h3>Puzzle</h3></a
+          >
+        </div>
+        <div class="categoria">
+          <a href="">
+            <div class="img-categoria"></div>
+            <h3>MMO</h3></a
+          >
+        </div>
+      </div>
+    </section>
+    <section id="destaques">
+      <h2>Em destaque</h2>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-4 produto">
+            <img src="img/ps5.webp" alt="Console PlayStation 5" />
+            <h3>R$4.185,00</h3>
+            <p>
+              Console Sony Playstation 5, SSD 825GB, Controle sem fio DualSense,
+              Com Mídia Física, Branco - 1214A
+            </p>
+          </div>
+          <div class="col-md-4 produto">
+            <img src="img/ps5.webp" alt="Console PlayStation 5" />
+            <h3>R$4.185,00</h3>
+            <p>
+              Console Sony Playstation 5, SSD 825GB, Controle sem fio DualSense,
+              Com Mídia Física, Branco - 1214A
+            </p>
+          </div>
+          <div class="col-md-4 produto">
+            <img src="img/ps5.webp" alt="Console PlayStation 5" />
+            <h3>R$4.185,00</h3>
+            <p>
+              Console Sony Playstation 5, SSD 825GB, Controle sem fio DualSense,
+              Com Mídia Física, Branco - 1214A
+            </p>
+          </div>
+          <div class="col-md-4 produto">
+            <img src="img/ps5.webp" alt="Console PlayStation 5" />
+            <h3>R$4.185,00</h3>
+            <p>
+              Console Sony Playstation 5, SSD 825GB, Controle sem fio DualSense,
+              Com Mídia Física, Branco - 1214A
+            </p>
           </div>
         </div>
-      </nav>
-
+      </div>
+    </section>
+    <section>
+      <h2>Em breve</h2>
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/c1.jpg" class="d-block w-100" alt="...">
+            <img src="..." class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="img/c2.jpg" class="d-block w-100" alt="...">
+            <img src="..." class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="img/c3.jpg" class="d-block w-100" alt="...">
+            <img src="..." class="d-block w-100" alt="..." />
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <section>
-        <h2>Categorias</h2>
-        <div class="categoria">
-            <a href="#">
-                <img src="" alt="">
-                <h3>Consoles</h3>
-            </a>
-        </div>        
-        <div class="categoria">
-            <a href="">
-                <img src="" alt="">
-                <h3>Jogos</h3></a>
-        </div>
-        <div class="categoria">
-            <a href="">
-                <img src="" alt="">
-                <h3>Periféricos</h3></a>
-        </div>
-      </section>
-      <section>
-        <h2>Em destaque</h2>
-        <div class="container text-center">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="" alt="">
-                <h3>R$0,00</h3>
-                <p>Descrição</p>
-              </div>
-              <div class="col-md-4">
-                <img src="" alt="">
-                <h3>R$0,00</h3>
-                <p>Descrição</p>
-              </div>
-              <div class="col-md-4">
-                <img src="" alt="">
-                <h3>R$0,00</h3>
-                <p>Descrição</p>
-              </div>
-              <div class="col-md-4">
-                <img src="" alt="">
-                <h3>R$0,00</h3>
-                <p>Descrição</p>
-              </div>
-            </div>
-          </div>
-      </section>
-      <section>
-        <h2>Em breve</h2>
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-      </section>
-      <footer>
-        <p>Nome © 2023</p>
-      </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </section>
+    <footer>
+      <p>Nome © 2023</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
   </body>
 </html>
