@@ -17,7 +17,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/games.css">
+    <link rel="stylesheet" href="css/games.css" />
     <link rel="stylesheet" href="css/inicio.css" />
   </head>
   <body>
@@ -71,15 +71,45 @@
               </ul>
             </li>
           </ul>
-          <form class="d-flex">
-            <button class="btn btn-outline-success" type="submit">
-              Search
+          <div class="d-flex">
+            <button id="btn-tema" onclick="toggleTheme()">Mudar Tema</button>
+            <button
+              type="button"
+              class="btn --bs-success"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              <img src="img/cart-fill.svg" alt="">
             </button>
-          </form>
+          </div>
         </div>
       </div>
     </nav>
-
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Carrinho</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
     <div id="carousel1" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -163,7 +193,11 @@
             <img src="img/hades-2-banner.jpg" class="d-block w-100" alt="..." />
           </div>
           <div class="carousel-item">
-            <img src="img/silksong-banner.jpg" class="d-block w-100" alt="..." />
+            <img
+              src="img/silksong-banner.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
           </div>
         </div>
         <button
@@ -186,7 +220,7 @@
         </button>
       </div>
     </section>
-    
+
     <footer>
       <p>SerraTech Games © 2023</p>
     </footer>
@@ -196,5 +230,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="script.js"></script>
+    <script src="carrinho.js"></script>
   </body>
 </html>
