@@ -72,21 +72,45 @@ h2{
     margin: 20px auto;
 }
 
-#destaques .container img{
+.image-container{
     width: 200px;
-    background-color: var(--cor1);
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img{
+    height: 100%;
+}
+
+#destaques{
+    background-color: var(--cor2);
+    padding: 20px 0 50px 0;
 }
 
 #destaques .container .row{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.produto{
-    background-color: var(--cor2);
-    padding: 20px 10px;
+.game-container{
+    background-color: var(--cor1);
     text-align: left;
     color: var(--cor4);
     max-width: min-content;
     margin: 20px;
+    padding: 0;
+    box-shadow: black 0 0 10px;
+}
+
+.game-container h3, .game-container p{
+    margin: 10px;
+    font-size: 1em;
+    color: var(--cor4);
+    transition: ease .5s;
+}
+
+.game-container:hover.game-container p, .game-container:hover.game-container h3 {
+    color: var(--cor3);
 }
