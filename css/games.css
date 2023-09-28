@@ -1,0 +1,52 @@
+:root {
+    --cor1: #191a24;
+    --cor2: #35374d;
+    --cor3: #23c676;
+    --cor4: #e2e2e2;
+  }
+  
+.image-container {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container img {
+    transition: ease .5s;
+    height: 100%;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .game-container {
+    background-color: var(--cor1);
+    text-align: left;
+    color: var(--cor4);
+    max-width: min-content;
+    margin: 20px;
+    padding: 0;
+    box-shadow: black 0 0 10px;
+  }
+  
+  .game-container h3,
+  .game-container p {
+    margin: 10px;
+    font-size: 1em;
+    color: var(--cor4);
+    transition: ease 0.5s;
+  }
+  
+  .game-container:hover.game-container p,
+  .game-container:hover.game-container h3 {
+    color: var(--cor3);
+  }
+
+  .image-container:hover img{
+    height: 120%;
+  }

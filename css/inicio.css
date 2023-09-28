@@ -1,0 +1,44 @@
+:root {
+  --cor1: #191a24;
+  --cor2: #35374d;
+  --cor3: #23c676;
+  --cor4: #e2e2e2;
+}
+
+.carousel-item {
+  height: 40vh;
+}
+
+#categorias {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Layout responsivo com Grid */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.categoria {
+  text-align: center;
+}
+
+.categoria a {
+  color: var(--cor4);
+}
+
+.img-categoria {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../img/fifa24.webp);
+  background-size: cover;
+  margin: 20px auto;
+}
+
+#destaques {
+  background-color: var(--cor2);
+  padding: 20px 0 50px 0;
+}
