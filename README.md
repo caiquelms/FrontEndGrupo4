@@ -21,6 +21,10 @@ Se você tiver dúvidas, sugestões ou problemas relacionados a este projeto, en
 
 Esperamos que a SerraTech Game Store seja útil e proporcione uma excelente experiência de compra para os amantes de jogos eletrônicos!
 
+## Tecnologias utilizadas
+- [Visual Studio Code](https://code.visualstudio.com)
+- HTML, CSS, JavaScript
+
 ## Autores
 - [Estevão C. Montes](https://github.com/Estevao1323)
 - [Lucas Caiafa](https://github.com/lucascaiafa00)
