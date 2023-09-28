@@ -26,6 +26,7 @@ input {
 
 #mensagem {
   height: 100px;
+  text-wrap: wrap;
 }
 
 input[type="submit"] {

@@ -35,7 +35,7 @@ function setGames() {
         </div>
       `
     }
-    document.querySelector('.row').innerHTML = cards;
+    document.querySelector('#destaques .row').innerHTML = cards;
   }
 
   
