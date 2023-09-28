@@ -100,3 +100,8 @@ footer p {
 #logo{
   height: 100px;
 }
+
+.active{
+  transition: ease .5s;
+  border-bottom: var(--cor3) solid;
+}

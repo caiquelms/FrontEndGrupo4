@@ -65,7 +65,9 @@ a:hover h3{
   padding: 40px 10vw;
 }
 
-.carousel-item {
-  align-items: center;
+.carousel-item img{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 
 }
