@@ -9,36 +9,63 @@
   height: 40vh;
 }
 
-#categorias {
-  display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(300px, 1fr)
-  ); /* Layout responsivo com Grid */
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 .categoria {
   text-align: center;
+  max-width: min-content;
+  margin: 0 20px;
 }
 
 .categoria a {
   color: var(--cor4);
+  display: inline;
+}
+
+#img-rpg{
+  background-image: url(../img/rpg.jpg);
+}
+
+#img-tiro{
+  background-image: url(../img/tiro.jpg);
+}
+
+#img-esportes{
+  background-image: url(../img/esportes.png);
+}
+
+#img-puzzle{
+  background-image: url(../img/puzzle.jpg);
 }
 
 .img-categoria {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-image: url(../img/fifa24.webp);
   background-size: cover;
-  margin: 20px auto;
+  background-position: center;
+  margin: 20px 0;
+}
+
+.img-categoria:hover{
+  transition: ease .5s;
+  transform: scale(1.1);
+  box-shadow: var(--cor4) 0 0 20px;
+}
+
+a:hover h3{
+  transition: ease .5s;
+  color: var(--cor3);
 }
 
 #destaques {
   background-color: var(--cor2);
   padding: 20px 0 50px 0;
+}
+
+#categorias{
+  padding: 40px 10vw;
+}
+
+.carousel-item {
+  align-items: center;
+
 }

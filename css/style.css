@@ -19,6 +19,8 @@ body {
 
 nav {
   background-color: var(--cor2);
+  top: 0;
+  z-index: 2;
 }
 
 #navbarSupportedContent ul li a {
@@ -62,7 +64,7 @@ footer p {
   text-align: left;
 }
 
-#categoria, .container1{
+.categorias, .container1{
   min-height: 91vh;
 }
 
@@ -79,7 +81,7 @@ footer p {
   background-color: var(--cor3);
   border-radius: 20px;
   padding: 5px 10px;
-  color: var(--cor4);
+  color: #0f0f0f;
   border: none;
 }
 
@@ -92,5 +94,9 @@ footer p {
   background-color: var(--cor3);
   border-radius: 20px;
   border: none;
-  color: var(--cor4);
+  color: #0f0f0f;
+}
+
+#logo{
+  height: 100px;
 }

@@ -23,9 +23,9 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg position-sticky">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">SerraTech Games</a>
+        <a class="navbar-brand" href="index.html"><img id="logo" src="img/logo.png" alt=""></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -40,7 +40,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a class="nav-link" aria-current="page" href="index.html"
                 >Início</a
               >
             </li>
@@ -48,7 +48,7 @@
               <a class="nav-link" href="contato.html">Contato</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="sobrenos.html">Sobre</a>
+              <a class="nav-link active" href="sobrenos.html">Sobre</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -69,20 +69,22 @@
                     >Jogos de tiro</a
                   >
                 </li>
-                <li><a class="dropdown-item" href="mmorpg.html">MMORPG</a></li>
+                <li><a class="dropdown-item" href="mmorpg.html">RPG</a></li>
+                <li><a class="dropdown-item" href="puzzle.html">Puzzle</a></li>
               </ul>
             </li>
           </ul>
-          <form class="d-flex">
+          <div class="d-flex">
+            <button id="btn-tema" onclick="toggleTheme()">Mudar Tema</button>
             <button
               type="button"
-              class="btn btn-primary"
+              class="btn --bs-success"
               data-bs-toggle="modal"
               data-bs-target="#staticBackdrop"
             >
-              Carrinho
+              <img src="img/cart-fill.svg" alt="">
             </button>
-          </form>
+          </div>
         </div>
       </div>
     </nav>
@@ -146,9 +148,9 @@
             >
           </li>
           <li>
-            <img class="avatar" src="img/minha imagem.jpg" alt="img" /><a
-              href="link_para_nome3"
-              ><span>Lucas</span></a
+            <img class="avatar" src="img/icone-lucas.png" alt="img" /><a
+              href="https://github.com/lucascaiafa00"
+              ><span>Lucas Caiafa</span></a
             >
           </li>
           <li>
@@ -159,9 +161,9 @@
             >
           </li>
           <li>
-            <img class="avatar" src="img/minha imagem.jpg" alt="img" /><a
-              href="link_para_nome5"
-              ><span>Felipe Moura</span></a
+            <img class="avatar" src="img/icone-felipe.png" alt="img" /><a
+              href="https://github.com/sh9bba"
+              ><span>Felipe de Moura</span></a
             >
           </li>
         </ul>
@@ -170,10 +172,7 @@
 
     <!-- rodapé  -->
     <footer>
-      <p>
-        &COPY;corporation SerraTech Games Store 2023 todos os direitos
-        reservados.
-      </p>
+      <p>SerraTech Game Store © 2023</p>
     </footer>
 
     <script
@@ -181,10 +180,6 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-<<<<<<< HEAD
-=======
     <script src="carrinho.js"></script>
-
->>>>>>> f53b3c049dc601a4fcf8d279d07711ecc2b483de
   </body>
 </html>

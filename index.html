@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jogo</title>
+    <title>SerraTech Game Store</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,9 +21,9 @@
     <link rel="stylesheet" href="css/inicio.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg position-sticky" >
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">SerraTech Games</a>
+        <a class="navbar-brand" href="index.html"><img id="logo" src="img/logo.png" alt=""></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -67,7 +67,8 @@
                     >Jogos de tiro</a
                   >
                 </li>
-                <li><a class="dropdown-item" href="mmorpg.html">MMORPG</a></li>
+                <li><a class="dropdown-item" href="mmorpg.html">RPG</a></li>
+                <li><a class="dropdown-item" href="puzzle.html">Puzzle</a></li>
               </ul>
             </li>
           </ul>
@@ -114,13 +115,13 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="img/god-of-war-2-carrossel.jpg"
+            src="img/tiro.jpg"
             class="d-block w-100"
             alt="..."
           />
         </div>
         <div class="carousel-item">
-          <img src="img/fifa-carrossel.jpeg" class="d-block w-100" alt="..." />
+          <img src="img/rpg.jpg" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
           <img src="img/nfs-carrossel.jpg" class="d-block w-100" alt="..." />
@@ -145,25 +146,32 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <section>
+    <section id="categorias">
       <h2>Categorias</h2>
-      <div class="row" id="categorias">
-        <div class="categoria">
+      <div class="container text-center">
+        <div class="row" id="destaques-container">
+          <div class="categoria">
           <a href="esporte.html">
-            <div class="img-categoria"></div>
-            <h3>Esporte</h3>
+            <div class="img-categoria" id="img-esportes"></div>
+            <h3>Esportes</h3>
           </a>
         </div>
         <div class="categoria">
           <a href="jogosdetiro.html">
-            <div class="img-categoria"></div>
+            <div class="img-categoria" id="img-tiro"></div>
             <h3>Jogos de tiro</h3></a
           >
         </div>
         <div class="categoria">
           <a href="mmorpg.html">
-            <div class="img-categoria"></div>
-            <h3>MMORPG</h3></a
+            <div class="img-categoria" id="img-rpg"></div>
+            <h3>RPG</h3></a
+          >
+        </div>
+        <div class="categoria">
+          <a href="puzzle.html">
+            <div class="img-categoria" id="img-puzzle"></div>
+            <h3>Puzzle</h3></a
           >
         </div>
       </div>
@@ -222,7 +230,7 @@
     </section>
 
     <footer>
-      <p>SerraTech Games © 2023</p>
+      <p>SerraTech Game Store © 2023</p>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
