@@ -33,11 +33,7 @@ nav {
   background-color: var(--cor2);
 }
 
-.carousel-item {
-  height: 40vh;
-}
-
-h2 {
+h1 {
   font-family: "Dela Gothic One", monospace;
   color: var(--cor3);
   text-align: center;
@@ -46,78 +42,13 @@ h2 {
   text-transform: uppercase;
 }
 
-#categorias {
-  display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(300px, 1fr)
-  ); /* Layout responsivo com Grid */
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.categoria {
-  text-align: center;
-}
-
-.categoria a {
-  color: var(--cor4);
-}
-
-.img-categoria {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-image: url(../img/fifa24.webp);
-  background-size: cover;
-  margin: 20px auto;
-}
-
-.image-container {
-  width: 200px;
-  height: 150px;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-}
-
-.image-container img {
-  height: 100%;
-}
-
-#destaques {
-  background-color: var(--cor2);
-  padding: 20px 0 50px 0;
-}
-
-#destaques .container .row {
-  display: flex;
-  justify-content: center;
-}
-
-.game-container {
-  background-color: var(--cor1);
-  text-align: left;
-  color: var(--cor4);
-  max-width: min-content;
-  margin: 20px;
-  padding: 0;
-  box-shadow: black 0 0 10px;
-}
-
-.game-container h3,
-.game-container p {
-  margin: 10px;
-  font-size: 1em;
-  color: var(--cor4);
-  transition: ease 0.5s;
-}
-
-.game-container:hover.game-container p,
-.game-container:hover.game-container h3 {
+h2 {
+  font-family: "Dela Gothic One", monospace;
   color: var(--cor3);
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  text-transform: uppercase;
 }
 
 footer {
@@ -129,4 +60,8 @@ footer {
 footer p {
   margin-left: 20px;
   text-align: left;
+}
+
+#categoria, .container1{
+  min-height: 91vh;
 }

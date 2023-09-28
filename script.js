@@ -1,4 +1,4 @@
-const apiKey = "83f4072b1dc5426a92e38f3de273059f";
+const apiKey = "c33f66dfe1fc4f468c508917dbdf6107";
 const pageSize = 26;
 var games;
 var creators;
@@ -19,7 +19,6 @@ async function loadGames() {
     throw new Error("Não foi possível obter os dados")
   }
 }
-
 function setGames() {
     let cards = "";
   
@@ -36,5 +35,7 @@ function setGames() {
         </div>
       `
     }
-    document.querySelector('.row').innerHTML = cards;
+    document.querySelector('#destaques .row').innerHTML = cards;
   }
+
+  
