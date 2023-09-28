@@ -2,7 +2,7 @@
   --cor1: #191a24;
   --cor2: #35374d;
   --cor3: #23c676;
-  --cor4: #e2e2e2;
+  --cor4: #ededf1;
 }
 
 * {
@@ -85,5 +85,12 @@ footer p {
 
 .modal-content{
   background-color: var(--cor1);
+  color: var(--cor4);
+}
+
+#btn-tema{
+  background-color: var(--cor3);
+  border-radius: 20px;
+  border: none;
   color: var(--cor4);
 }
