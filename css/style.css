@@ -65,3 +65,25 @@ footer p {
 #categoria, .container1{
   min-height: 91vh;
 }
+
+.item-carrinho{
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-footer{
+  display: block;
+}
+
+.modal-footer button{
+  background-color: var(--cor3);
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: var(--cor4);
+  border: none;
+}
+
+.modal-content{
+  background-color: var(--cor1);
+  color: var(--cor4);
+}

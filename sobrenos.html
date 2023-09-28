@@ -23,7 +23,7 @@
   <body>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">SerraTech Store</a>
+        <a class="navbar-brand" href="index.html">SerraTech Games</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -58,7 +58,7 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="esporte.html">Esporte</a>
+                  <a class="dropdown-item" href="esporte.html">Esportes</a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="jogosdetiro.html"
@@ -70,13 +70,43 @@
             </li>
           </ul>
           <form class="d-flex">
-            <button class="btn btn-outline-success" type="submit">
-              Search
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Carrinho
             </button>
           </form>
         </div>
       </div>
     </nav>
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Carrinho</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
 
     <div class="flex-container">
       <section id="sobre-nos">
@@ -142,6 +172,9 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
+    <script src="carrinho.js"></script>
+
   </body>
 </html>
