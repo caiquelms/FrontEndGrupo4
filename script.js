@@ -19,7 +19,6 @@ async function loadGames() {
     throw new Error("Não foi possível obter os dados")
   }
 }
-
 function setGames() {
     let cards = "";
   
@@ -38,3 +37,5 @@ function setGames() {
     }
     document.querySelector('.row').innerHTML = cards;
   }
+
+  
