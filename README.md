@@ -1,6 +1,7 @@
 # FrontEndGrupo4
-
+<h1 align="center">
 ![serratech](https://github.com/caiquelms/FrontEndGrupo4/assets/120669865/a337bb5b-ac8a-4fbc-828f-686be0e048a3)
+</h1>
 
 
 Visão Geral
