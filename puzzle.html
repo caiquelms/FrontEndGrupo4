@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>SerraTech Game Store - Esportes</title>
+    <title>SerraTech Game Store - Puzzle</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,13 +16,15 @@
       href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Questrial&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/games.css">
+    <link rel="stylesheet" href="css/games.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body onload="loadGamesByGenre(15);">
-    <nav class="navbar navbar-expand-lg position-sticky">
+  <body onload="loadGamesByGenre(7);">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img id="logo" src="img/logo.png" alt=""></a>
+        <a class="navbar-brand" href="index.html"
+          ><img id="logo" src="img/logo.png" alt=""
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -71,7 +73,7 @@
               </ul>
             </li>
           </ul>
-          
+
           <div class="d-flex">
             <button id="btn-tema" onclick="toggleTheme()">Mudar Tema</button>
             <button
@@ -80,7 +82,7 @@
               data-bs-toggle="modal"
               data-bs-target="#staticBackdrop"
             >
-              <img src="img/cart-fill.svg" alt="">
+              <img src="img/cart-fill.svg" alt="" />
             </button>
           </div>
         </div>
@@ -112,7 +114,7 @@
       </div>
     </div>
     <section class="categorias">
-      <h1>ESPORTE</h1>
+      <h1>PUZZLE</h1>
       <div class="container text-center">
         <div class="row">
           <div class="spinner-border text-success" role="status">
@@ -129,7 +131,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <script src="categorias.js"> </script>
+    <script src="categorias.js"></script>
     <script src="carrinho.js"></script>
   </body>
 </html>

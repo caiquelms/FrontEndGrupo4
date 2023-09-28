@@ -1,5 +1,5 @@
 const apiKey = "c33f66dfe1fc4f468c508917dbdf6107";
-const pageSize = 20;
+const pageSize = 40;
 var games;
 var creators;
 
@@ -24,7 +24,7 @@ async function loadGamesByGenre(genreId) {
 function setGames() {
   let cards = "";
 
-  for (let i = 5; i < 20; i++) {
+  for (let i = 5; i < 40; i++) {
     cards += `
 
         <div class="game-container">

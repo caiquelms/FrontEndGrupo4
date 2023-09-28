@@ -37,7 +37,9 @@ function finalizarCompra() {
     alert("Compra realizada! :)")
     limparCarrinho()
 }
+
 const rootElement = document.documentElement;
+const logo = document.getElementById("logo");
 
 const lightTheme = {
     '--cor1': '#e7e7f0',
@@ -58,9 +60,11 @@ function toggleTheme() {
     if (isDarkTheme) {
         changeTheme(darkTheme);
         console.log("Tema escuro ativado.");
+        logo.src = "img/logo.png"
     } else {
         changeTheme(lightTheme);
         console.log("Tema claro ativado.");
+        logo.src = "img/logo-light.png"
     }
 }
 

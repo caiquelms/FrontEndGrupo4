@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jogo</title>
+    <title>SerraTech Game Store</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,9 +20,9 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg position-sticky">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">SerraTech Games</a>
+        <a class="navbar-brand" href="index.html"><img id="logo" src="img/logo.png" alt=""></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -66,20 +66,22 @@
                     >Jogos de tiro</a
                   >
                 </li>
-                <li><a class="dropdown-item" href="mmorpg.html">MMORPG</a></li>
+                <li><a class="dropdown-item" href="mmorpg.html">RPG</a></li>
+                <li><a class="dropdown-item" href="puzzle.html">Puzzle</a></li>
               </ul>
             </li>
           </ul>
-          <form class="d-flex">
+          <div class="d-flex">
+            <button id="btn-tema" onclick="toggleTheme()">Mudar Tema</button>
             <button
               type="button"
-              class="btn btn-primary"
+              class="btn --bs-success"
               data-bs-toggle="modal"
               data-bs-target="#staticBackdrop"
             >
-              Carrinho
+              <img src="img/cart-fill.svg" alt="">
             </button>
-          </form>
+          </div>
         </div>
       </div>
     </nav>
@@ -122,7 +124,7 @@
       </form>
     </section>
     <footer>
-      <p>SerraTech Games © 2023</p>
+      <p>SerraTech Game Store © 2023</p>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
