@@ -25,5 +25,5 @@ Esperamos que a SerraTech Game Store seja útil e proporcione uma excelente expe
 - [Estevão C. Montes](https://github.com/Estevao1323)
 - [Lucas Caiafa](https://github.com/lucascaiafa00)
 - [Aurélio Lamela](https://github.com/netolamela)
-- [Felipe Moura](https://github.com/sh9bba)
+- [Felipe de Moura](https://github.com/sh9bba)
 - [Caique Lemos](https://github.com/caiquelms)
