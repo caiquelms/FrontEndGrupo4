@@ -7,23 +7,24 @@ loadGames();
 
 async function loadGames() {
   try {
-    const result = await fetch(`https://api.rawg.io/api/games?key=${apiKey}&page_size=${pageSize}`);
+    const result = await fetch(
+      `https://api.rawg.io/api/games?key=${apiKey}&page_size=${pageSize}`
+    );
     const data = await result.json();
     games = data.results;
 
-    games.sort((a, b) => b.rating - a.rating)
+    games.sort((a, b) => b.rating - a.rating);
 
     setGames();
   } catch (error) {
-
-    throw new Error("Não foi possível obter os dados")
+    throw new Error("Não foi possível obter os dados");
   }
 }
 function setGames() {
-    let cards = "";
-  
-    for (let i = 5; i < 10; i++) {
-      cards += `
+  let cards = "";
+
+  for (let i = 5; i < 10; i++) {
+    cards += `
         <div class="game-container">
         <a href="produto.html?id=${games[i].id}">
           <div class="image-container">
@@ -33,9 +34,7 @@ function setGames() {
           <p>R$1,99</p>
           </a>
         </div>
-      `
-    }
-    document.querySelector('#destaques .row').innerHTML = cards;
+      `;
   }
-
-  
+  document.querySelector("#destaques .row").innerHTML = cards;
+}
