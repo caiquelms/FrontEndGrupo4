@@ -64,10 +64,3 @@ a:hover h3{
 #categorias{
   padding: 40px 10vw;
 }
-
-.carousel-item img{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-
-}
