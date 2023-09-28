@@ -1,116 +1,132 @@
-:root{
-    --cor1: #191A24;
-    --cor2: #35374D;
-    --cor3: #23C676;
-    --cor4: #e2e2e2;
+:root {
+  --cor1: #191a24;
+  --cor2: #35374d;
+  --cor3: #23c676;
+  --cor4: #e2e2e2;
 }
 
-*{
-    font-family: 'Questrial', sans-serif;
+* {
+  font-family: "Questrial", sans-serif;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-body{
-    background-color: var(--cor1);
+body {
+  background-color: var(--cor1);
 }
 
-nav{
-    background-color: var(--cor1);
+nav {
+  background-color: var(--cor2);
 }
 
-#navbarSupportedContent ul li a{
-    color: var(--cor4);
+#navbarSupportedContent ul li a {
+  color: var(--cor4);
 }
 
-#navbarSupportedContent ul li a:hover{
-    color: var(--cor3);
+#navbarSupportedContent ul li a:hover {
+  color: var(--cor3);
 }
 
-.dropdown-menu{
-    background-color: var(--cor2);
+.dropdown-menu {
+  background-color: var(--cor2);
 }
 
-.carousel-item{
-    height: 40vh;
+.carousel-item {
+  height: 40vh;
 }
 
-h2{
-    font-family: 'Dela Gothic One', monospace;
-    color: var(--cor3);
-    text-align: center;
-    font-size: 40px;
-    padding: 20px;
-    text-transform: uppercase;
+h2 {
+  font-family: "Dela Gothic One", monospace;
+  color: var(--cor3);
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  text-transform: uppercase;
 }
 
-#categorias{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Layout responsivo com Grid */
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+#categorias {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Layout responsivo com Grid */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.categoria{
-    text-align: center;
+.categoria {
+  text-align: center;
 }
 
-.categoria a{
-    color: var(--cor4);
+.categoria a {
+  color: var(--cor4);
 }
 
-.img-categoria{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-image: url(../img/fifa24.webp);
-    background-size: cover;
-    margin: 20px auto;
+.img-categoria {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../img/fifa24.webp);
+  background-size: cover;
+  margin: 20px auto;
 }
 
-.image-container{
-    width: 200px;
-    height: 150px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
+.image-container {
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
-.image-container img{
-    height: 100%;
+.image-container img {
+  height: 100%;
 }
 
-#destaques{
-    background-color: var(--cor2);
-    padding: 20px 0 50px 0;
+#destaques {
+  background-color: var(--cor2);
+  padding: 20px 0 50px 0;
 }
 
-#destaques .container .row{
-    display: flex;
-    justify-content: center;
+#destaques .container .row {
+  display: flex;
+  justify-content: center;
 }
 
-.game-container{
-    background-color: var(--cor1);
-    text-align: left;
-    color: var(--cor4);
-    max-width: min-content;
-    margin: 20px;
-    padding: 0;
-    box-shadow: black 0 0 10px;
+.game-container {
+  background-color: var(--cor1);
+  text-align: left;
+  color: var(--cor4);
+  max-width: min-content;
+  margin: 20px;
+  padding: 0;
+  box-shadow: black 0 0 10px;
 }
 
-.game-container h3, .game-container p{
-    margin: 10px;
-    font-size: 1em;
-    color: var(--cor4);
-    transition: ease .5s;
+.game-container h3,
+.game-container p {
+  margin: 10px;
+  font-size: 1em;
+  color: var(--cor4);
+  transition: ease 0.5s;
 }
 
-.game-container:hover.game-container p, .game-container:hover.game-container h3 {
-    color: var(--cor3);
+.game-container:hover.game-container p,
+.game-container:hover.game-container h3 {
+  color: var(--cor3);
+}
+
+footer {
+  background-color: var(--cor2);
+  color: var(--cor4);
+  height: 3vh;
+}
+
+footer p {
+  margin-left: 20px;
+  text-align: left;
 }
