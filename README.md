@@ -1,7 +1,7 @@
 # FrontEndGrupo4
 
 <div align="center">
-  <img src="https://github.com/caiquelms/FrontEndGrupo4/assets/141193653/ae6b6c41-59b0-442c-9cc3-98d81230aeba">
+  ![serratechgamestore](https://github.com/caiquelms/FrontEndGrupo4/assets/141193653/ae6b6c41-59b0-442c-9cc3-98d81230aeba)
 </div>
 
 
