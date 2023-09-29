@@ -1,8 +1,8 @@
 # FrontEndGrupo4
 
-<p align="center">
-  <img src="https://github.com/caiquelms/FrontEndGrupo4/assets/120669865/a337bb5b-ac8a-4fbc-828f-686be0e048a3">
-</p>
+<div align="center">
+  <img src="https://github.com/caiquelms/FrontEndGrupo4/assets/141193653/ae6b6c41-59b0-442c-9cc3-98d81230aeba">
+</div>
 
 
 
